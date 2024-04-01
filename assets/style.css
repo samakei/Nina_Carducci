@@ -89,9 +89,11 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
+/* modification gallery*/
+.gallery {
+min-height: 100vh; 
+display: block;
 
-#gallery {
-	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
@@ -238,7 +240,9 @@ form textarea {
 	line-height: 2.5em;
 	font-size: 1.2em;
 	margin-bottom: 20px;
+	resize: none;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
