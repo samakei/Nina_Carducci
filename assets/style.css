@@ -27,15 +27,18 @@ body {
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
+	
 }
 
 .nav li {
 	padding-inline: 10px;
+	
 }
 
 .nav a {
 	text-decoration: none;
 	color: #000
+	
 }
 
 .social-link img {
@@ -68,7 +71,7 @@ body {
 }
 
 .picture img {
-	width: 100%;
+  width: 100%;
 
 }
 #about-me {
@@ -91,13 +94,12 @@ body {
 }
 /* modification gallery*/
 #gallery {
-min-height: 100vh; 
+ min-height: 100vh; 
 }
-
 .gallery {
-display: block;
-
+	display: block;
 }
+/*fin*/
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -361,3 +363,9 @@ input[type="submit"] {
 	}
 }
 
+.footer {
+	width: 100%;
+	min-height: 30vh;
+	background-color: #000;
+	color: white;
+}
