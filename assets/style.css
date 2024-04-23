@@ -28,6 +28,11 @@ body {
 	font-size: 14px;
 	margin-bottom: 0;
 	
+	
+}
+
+.nav a{
+	cursor: pointer; /*affiche cursor pointer*/
 }
 
 .nav li {
@@ -39,6 +44,7 @@ body {
 	text-decoration: none;
 	color: #000
 	
+
 }
 
 .social-link img {
@@ -95,10 +101,9 @@ body {
 /* modification gallery*/
 #gallery {
  min-height: 100vh; 
+
 }
-.gallery {
-	display: block;
-}
+
 /*fin*/
 .title{
 	text-align: center;
@@ -245,7 +250,6 @@ form textarea {
 	line-height: 2.5em;
 	font-size: 1.2em;
 	margin-bottom: 20px;
-	resize: none;
 }
 
 input[type="submit"] {
@@ -362,10 +366,35 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
+/* Style pour le pied de page */
 .footer {
-	width: 100%;
-	min-height: 30vh;
-	background-color: #000;
-	color: white;
+	background-color: #f8f9fa;
+	padding: 20px 0;
+}
+
+/* Style pour la section de contenu */
+.containers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style pour les informations d'adresse et de contact */
+footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Style pour les colonnes (utilisant Bootstrap) */
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+
+/* Style pour les médias plus petits */
+@media (max-width: 767px) {
+  .col-md-6 {
+    width: 100%;
+  }
 }
