@@ -101,9 +101,10 @@ body {
 /* modification gallery*/
 #gallery {
  min-height: 100vh; 
-
 }
-
+.gallery {
+	display: block;
+}
 /*fin*/
 .title{
 	text-align: center;
